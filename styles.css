@@ -1,0 +1,159 @@
+h1{
+	margin-bottom: 30px;
+	font-family: 'Luckiest Guy', cursive;
+	text-align: center;
+	color: yellow;
+	background-color: white;
+	background-image: url('images/game background.jpg');
+	background-size: 300px 300px;
+	
+
+
+}
+
+h2{
+	margin-bottom: 30px;
+	font-family: 'Luckiest Guy', cursive;
+	text-align: center;
+	color: red;
+	background-color: inherit;
+}
+
+h6{
+text-align: center;
+font-family: 'Muli', sans-serif;
+
+}
+
+body{
+			background-color: white;
+
+
+}
+
+
+hr{
+	margin: 30px;
+}
+p{
+	font-family: 'Luckiest Guy', cursive;
+	text-align: center;
+
+
+}
+/* Removes the bullets on ul list in a slide show */
+.nobullets{
+	list-style-type:none;
+	padding-left:0;
+}
+
+/*Adds a margin underneath each image in the slide show */
+.boxstyle{
+	margin-bottom:20px;
+}
+
+/*Centers the images and sets a max width of 700px */
+.wb-carousel{
+	max-width:1400px;
+	margin:20px auto;
+}
+
+ul{
+	font-family: 'Muli', sans-serif;
+
+}
+
+li{
+
+	font-family: 'Muli', sans-serif;
+}
+
+.img-container {
+								float: left;
+								width: 33.33%;
+								padding:5px;
+
+}
+
+main, .navbar-nav{
+	max-width: 1000px;
+	margin:0 auto;
+	font-family: 'Bebas Neue', cursive;
+}
+
+header{
+		width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 100%;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+		width: 100%;
+}
+nav{
+	margin-bottom:30px;
+}
+footer{
+	text-align:center;
+	background-color: #32373D;
+	color: white;
+	padding:10px;
+	margin-top: 20px;
+}
+/*Controls for the modal slide show*/
+.controls{
+    width:50px;
+    display:block;
+    font-size:11px;
+    padding-top:8px;
+    font-weight:bold;
+}
+a.controls:hover{
+	text-decoration:none;
+}
+
+.next {
+    float:right;
+    text-align:right;
+}
+/* CSS for the icons page */
+.contact-icons{
+	text-align:center;
+}
+
+.contact-icons i{
+	font-size: 60px;
+	margin-top: 40px;
+}
+
+.contact-icons h2{
+	margin-bottom: 50px;
+}
+
+
+.wrapper{
+				max-width: 1200px;
+
+
+
+
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+}
